@@ -181,7 +181,7 @@
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 450px;
+        min-height: 568px;
     }
     
     #header-carousel .carousel-item img {
@@ -195,7 +195,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/Slide\ 7.jpg) top right no-repeat;
     background-size: cover;
 }
 
