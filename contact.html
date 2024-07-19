@@ -165,7 +165,7 @@
 
 
     <!-- Google Map Start -->
-    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
+    <div id="map" class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
         <iframe class="w-100" style="height: 450px;"
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3917.9544284667054!2d76.314616!3d10.891068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDUzJzI3LjgiTiA3NsKwMTgnNTIuNiJF!5e0!3m2!1sen!2sin!4v1721217021736!5m2!1sen!2sin"
             frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -237,7 +237,18 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the URL parameter `scrollToMap` is present
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('scrollToMap') === 'true') {
+                var mapElement = document.getElementById('map');
+                if (mapElement) {
+                    mapElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>    
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>

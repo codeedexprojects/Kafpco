@@ -30,8 +30,22 @@
 }
 
 .malayalam-text {
-    font-size: 18px; /* Adjust size as needed */
+    font-size: 18px;
+    /* Adjust size as needed */
     color: black;
+
+}
+
+.noto-serif-malayalam {
+    font-family: 'Noto Serif Malayalam', serif;
+    font-weight: 400;
+    /* You can change this to any weight between 100 and 900 */
+}
+
+.gradient-text {
+    background: linear-gradient(300deg, #ffffff 0%, #000000 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*** Spinner ***/
@@ -183,7 +197,7 @@
         position: relative;
         min-height: 568px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
