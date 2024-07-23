@@ -45,15 +45,14 @@
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>14/48-3,4, Karalmanna, Cherpulassery PO, Palakkad District, Kerala-679503</small>
+                <small><i class="fa fa-map-marker-alt me-2"></i>14/48-3,4, Karalmanna, Cherpulassery PO, Palakkad
+                    District, Kerala-679503</small>
                 <small class="ms-4"><i class="fa fa-envelope me-2"></i>kafpcolimited@gmail.com</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
                 <small>Follow us:</small>
-                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-body ms-3" href="https://www.facebook.com/profile.php?id=100076293798264&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href="https://wa.me/+918289983083"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
 
@@ -115,24 +114,32 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
-                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
-                        <li class="nav-item me-2">
-                            <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill"
-                                href="#tab-all">All</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-oils">Oils</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill"
-                                href="#tab-millets">Millets
-                            </a>
-                        </li>
-                        <li class="nav-item me-0">
-                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill"
-                                href="#tab-powders">Powders</a>
-                        </li>
-                    </ul>
+                    <div class="dropdown nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="productDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Select Product Category
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="productDropdown">
+                            <li><a class="dropdown-item active" data-bs-toggle="pill" href="#tab-all">All</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-rices">Rices</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-oils">Oils</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-flakes">Flakes</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-pickles">Pickles</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-noodles">Noodles</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-vermicelli">Vermicelli</a>
+                            </li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-riceproducts">Rice
+                                    Products</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-spicepowders">Spice
+                                    Powders</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-millets">Millets</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-otherpowders">Other
+                                    Powders</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-honeyjaggery">Honey and
+                                    Jaggery</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="pill" href="#tab-others">Others</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="tab-content">
@@ -141,8 +148,253 @@
                         <!-- Dynamic content will be loaded here -->
                     </div>
                 </div>
+                <div id="tab-rices" class="tab-pane fade p-0">
+                    <div class="row g-4" id="rices-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Rakthasali Rice.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Rakthasali Rice</a>
+                                    <span class="text-primary me-1">120.00</span>
+                                    <span class="text-body text-decoration-line-through">150.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26022938974017894/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Navara Rice.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Navara rice</a>
+                                    <span class="text-primary me-1">100.00</span>
+                                    <span class="text-body text-decoration-line-through">150.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7620750034689809/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/White Broken Rice.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">White broken rice</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">55.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26034594502821873/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Karum kuruvi rice.jpg"
+                                        alt="Karum kuruvi rice">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Karum kuruvi rice</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25969273479386992/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Matta Rice Broken.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Broken Matta rice</a>
+                                    <span class="text-primary me-1">55.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8170855966308633/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Poongar rice" alt="Poongar rice">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Poongar rice</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7606085476181497/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kattuvanam rice" alt="Kattuvanam rice">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kattuvanam rice</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">95.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8225058904199866/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Black kavuni rice" alt="Black kavuni rice">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Black kavuni rice</a>
+                                    <span class="text-primary me-1">140.00</span>
+                                    <span class="text-body text-decoration-line-through">150.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8045240302204770/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Thooya malli rice" alt="Thooya malli rice">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Thooya malli rice</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7376413942463752/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id="tab-oils" class="tab-pane fade show p-0 ">
                     <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Sesame Oil.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Sesame oil</a>
+                                    <span class="text-primary me-1">190.00</span>
+                                    <span class="text-body text-decoration-line-through">200.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7747483918639314/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
@@ -153,124 +405,38 @@
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Coconut Oil</a>
-                                    <span class="text-primary me-1">₹250.00</span>
-                                    <span class="text-body text-decoration-line-through">₹300.00</span>
+                                    <a class="d-block h5 mb-2" href="">Coconut oil</a>
+                                    <span class="text-primary me-1">250.00</span>
+                                    <span class="text-body text-decoration-line-through">260.00</span>
                                 </div>
-                                <!-- <div class="d-flex border-top">
-                                <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
-                                </small>
-                                <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
-                                </small>
-                            </div> -->
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
                                         <a class="text-body whatsapp-link"
-                                            href="https://wa.me/p/7272887142811715/918289983083"
-                                            data-product="Coconut Oil" data-price="₹250.00">
+                                            href="https://wa.me/p/7272887142811715/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Coconut Oil Mill PNG.webp" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Coconut Oil Mill</a>
-                                    <span class="text-primary me-1">₹150.00</span>
-                                    <span class="text-body text-decoration-line-through">₹200.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Coconut Oil Mill"
-                                            data-price="₹150.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Adamanga Pickles PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Adamanga Pickles</a>
-                                    <span class="text-primary me-1">₹100.00</span>
-                                    <span class="text-body text-decoration-line-through">₹150.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Adamanga Pickles"
-                                            data-price="₹100.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Atta PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Atta</a>
-                                    <span class="text-primary me-1">₹40.00</span>
-                                    <span class="text-body text-decoration-line-through">₹60.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Atta"
-                                            data-price="₹40.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Aval PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Groundnut Oil PNG.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
                                     </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Aval</a>
-                                    <span class="text-primary me-1">₹20.00</span>
-                                    <span class="text-body text-decoration-line-through">₹30.00</span>
+                                    <a class="d-block h5 mb-2" href="">Ground nut oil</a>
+                                    <span class="text-primary me-1">375.00</span>
+                                    <span class="text-body text-decoration-line-through">380.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Aval"
-                                            data-price="₹20.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7815884055192822/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
@@ -278,81 +444,6 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Black Sesame PNG.webp" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Black Sesame</a>
-                                    <span class="text-primary me-1">₹50.00</span>
-                                    <span class="text-body text-decoration-line-through">₹80.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Black Sesame"
-                                            data-price="₹50.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Brown Rice Puttupodi PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Brown Rice Puttupodi</a>
-                                    <span class="text-primary me-1">₹35.00</span>
-                                    <span class="text-body text-decoration-line-through">₹45.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Brown Rice Puttupodi"
-                                            data-price="₹35.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Chama Vermicelli Little Millet PNG.png"
-                                        alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New
-                                    </div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Chama Vermicelli Little Millet</a>
-                                    <span class="text-primary me-1">₹60.00</span>
-                                    <span class="text-body text-decoration-line-through">₹90.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#"
-                                            data-product="Chama Vermicelli Little Millet" data-price="₹60.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
                             <a class="btn btn-primary rounded-pill py-3 px-5" href="product.html">Browse More
                                 Products</a>
@@ -362,191 +453,120 @@
 
                 <div id="tab-millets" class="tab-pane fade show p-0">
                     <div class="row g-4">
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Chilly Powder (2) PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Pearl Millet.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Chilly Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Pearl millet</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">55.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Chilly Powder"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7802832889823781/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Chilly Powder (3) PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Finger Millet PNG.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Chilly Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Ragi/finger millet</a>
+                                    <span class="text-primary me-1">75.00</span>
+                                    <span class="text-body text-decoration-line-through">80.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Chilly Powder"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25947026661608398/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Chilly Powder (2) PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Proso Millet.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Chilly Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Proso millet</a>
+                                    <span class="text-primary me-1">40.00</span>
+                                    <span class="text-body text-decoration-line-through">50.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Chilly Powder"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7990788174292873/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Cholam Noodles PNG.webp" alt="">
+                                    <img class="img-fluid w-100" src="img/Foxtail Millet PNG.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Cholam Noodles</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Foxtail</a>
+                                    <span class="text-primary me-1">45.00</span>
+                                    <span class="text-body text-decoration-line-through">50.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Cholam Noodles"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7561956330579997/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Chutney Powder PNG.webp" alt="">
+                                    <img class="img-fluid w-100" src="img/Sorghum Bicolor.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Chutney Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Sorghum bicolor</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">65.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Chutney Powder"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Coriander Powder PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Coriander Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Coriander Powder"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Dry Ginger PNG.webp" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Dry Ginger</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Dry Ginger"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Dry Kannan Kaya Sliced PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Dry Kannan Kaya Sliced</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#"
-                                            data-product="Dry Kannan Kaya Sliced" data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26423930583864722/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
@@ -560,193 +580,99 @@
                         </div>
                     </div>
                 </div>
-                <div id="tab-powders" class="tab-pane fade show p-0">
+
+                <div id="tab-spicepowders" class="tab-pane fade show p-0">
                     <div class="row g-4">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Figer Millet Powder PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Turmeric Powder.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Finger Millet Powder</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Turmeric powder</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">65.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Finger Millet Powder"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26367268839553627/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Finger Millet PNG.webp" alt="">
+                                    <img class="img-fluid w-100" src="img/Chilly Powder PNG.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Finger Millet</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Chilly Powder</a>
+                                    <span class="text-primary me-1">80.00</span>
+                                    <span class="text-body text-decoration-line-through">85.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Finger Millet"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8060708273990662/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Foxtail Millet PNG.png" alt="">
+                                    <img class="img-fluid w-100" src="img/Coriander Powder PNG.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Foxtail Millet</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Coriander powder</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">55.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Foxtail Millet"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7792823554135142/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Gingelly Oil PNG.webp" alt="">
+                                    <img class="img-fluid w-100" src="img/Pepper Powder.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
+                                        New
+                                    </div>
                                 </div>
                                 <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Gingelly Oil</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
+                                    <a class="d-block h5 mb-2" href="">Pepper powder</a>
+                                    <span class="text-primary me-1">100.00</span>
+                                    <span class="text-body text-decoration-line-through">120.00</span>
                                 </div>
                                 <div class="d-flex border-top">
                                     <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Gingelly Oil"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Groundnut Oil 250ml PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Groundnut Oil (250ml)</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Groundnut Oil (250ml)"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Groundnut Oil PNG.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Groundnut Oil</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Groundnut Oil"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Health Mix.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Health Mix</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Health Mix"
-                                            data-price="₹19.00">
-                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
-                                        </a>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Honey.png" alt="">
-                                    <div
-                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                        New</div>
-                                </div>
-                                <div class="text-center p-4">
-                                    <a class="d-block h5 mb-2" href="">Honey</a>
-                                    <span class="text-primary me-1">₹19.00</span>
-                                    <span class="text-body text-decoration-line-through">₹29.00</span>
-                                </div>
-                                <div class="d-flex border-top">
-                                    <small class="w-100 text-center border-end py-2">
-                                        <a class="text-body whatsapp-link" href="#" data-product="Honey"
-                                            data-price="₹19.00">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8063616737023589/918289983083">
                                             <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
                                         </a>
                                     </small>
@@ -757,12 +683,988 @@
                             <a class="btn btn-primary rounded-pill py-3 px-5" href="product.html">Browse More
                                 Products</a>
                         </div>
+                    </div>
+                </div>
+                <div id="tab-flakes" class="tab-pane fade p-0">
+                    <div class="row g-4" id="flakes-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Black kavuni flakes"
+                                        alt="Black kavuni flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Black kavuni flakes</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7947442745349680/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kambam flakes" alt="Kambam flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kambam flakes</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">10.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7937990982906651/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Thina flakes" alt="Thina flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Thina flakes</a>
+                                    <span class="text-primary me-1">130.00</span>
+                                    <span class="text-body text-decoration-line-through">150.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7384234658348176/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ragi flakes" alt="Ragi flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Ragi flakes</a>
+                                    <span class="text-primary me-1">80.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7651766411601486/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Wheat flakes" alt="Wheat flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Wheat flakes</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7700296113416445/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kodo millet flakes" alt="Kodo millet flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kodo millet flakes</a>
+                                    <span class="text-primary me-1">130.00</span>
+                                    <span class="text-body text-decoration-line-through">140.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8196185513759768/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Little millet flakes"
+                                        alt="Little millet flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Little millet flakes</a>
+                                    <span class="text-primary me-1">120.00</span>
+                                    <span class="text-body text-decoration-line-through">130.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26200629439580445/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Banyrd millet flakes"
+                                        alt="Banyrd millet flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Banyrd millet flakes</a>
+                                    <span class="text-primary me-1">130.00</span>
+                                    <span class="text-body text-decoration-line-through">140.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/6629015170556772/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Sorghum Flakes.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Sorghum flakes</a>
+                                    <span class="text-primary me-1">70.00</span>
+                                    <span class="text-body text-decoration-line-through">80.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7633656480016526/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Hors gram flakes" alt="Hors gram flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Hors gram flakes</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7891303684287815/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Green gram flakes" alt="Green gram flakes">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Green gram flakes</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7961262840633051/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Aval PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Aval</a>
+                                    <span class="text-primary me-1">45.00</span>
+                                    <span class="text-body text-decoration-line-through">50.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7187807207986742/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-pickles" class="tab-pane fade p-0">
+                    <div class="row g-4" id="pickles-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/South Indian pickles" alt="South Indian pickles">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">South Indian pickles</a>
+                                    <span class="text-primary me-1">160.00</span>
+                                    <span class="text-body text-decoration-line-through">165.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26491972073734746/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kadumanga Pickles.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kadumanga pickles</a>
+                                    <span class="text-primary me-1">260.00</span>
+                                    <span class="text-body text-decoration-line-through">270.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7190672591034714/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Adamanga Pickles PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Adamanga pickes</a>
+                                    <span class="text-primary me-1">160.00</span>
+                                    <span class="text-body text-decoration-line-through">170.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7685520894857075/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-noodles" class="tab-pane fade p-0">
+                    <div class="row g-4" id="noodles-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Pearl millet noodles"
+                                        alt="Pearl millet noodles">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Pearl millet noodles</a>
+                                    <span class="text-primary me-1">85.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7802308779859156/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Manik cholam noodles"
+                                        alt="Manik cholam noodles">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Manik cholam noodles</a>
+                                    <span class="text-primary me-1">85.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8258691997482266/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Multi Millet Noodles.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Multi millet noodles</a>
+                                    <span class="text-primary me-1">85.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7526731260783479/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Foxtile Millet Noodles"
+                                        alt="Foxtile Millet Noodles">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Foxtile Millet Noodles</a>
+                                    <span class="text-primary me-1">85.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7421027274669524/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-vermicelli" class="tab-pane fade p-0">
+                    <div class="row g-4" id="vermicelli-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ragi Vermicelli Finger Millet.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Ragi vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7611470955647422/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Mani Cholam Vermicelli.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Mani cholam vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25945828015031543/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Multi Millet Vermicelli.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Multi Millet Vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26299123336345414/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kambu Vermicelli Pearl Millet.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Pearl millet Vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/6114260978697548/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kodo millet vermicelli"
+                                        alt="Kodo millet vermicelli">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kodo millet vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25885140364464962/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Foxtail millet Vermicelli"
+                                        alt="Foxtail millet Vermicelli">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Foxtail millet Vermicelli</a>
+                                    <span class="text-primary me-1">60.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7700380180076393/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-riceproducts" class="tab-pane fade p-0">
+                    <div class="row g-4" id="riceproducts-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Brown Rice Puttupodi PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Rice puttpodi</a>
+                                    <span class="text-primary me-1">55.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8616890848338208/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Rice Powder.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Rice powder</a>
+                                    <span class="text-primary me-1">35.00</span>
+                                    <span class="text-body text-decoration-line-through">38.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7840656116010896/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Karkkida Kanjikkoot.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Karkkidaka kanjikoottu</a>
+                                    <span class="text-primary me-1">200.00</span>
+                                    <span class="text-body text-decoration-line-through">210.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7829741583786495/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Rice puttupodi Roasted.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Brown rice puttpodi</a>
+                                    <span class="text-primary me-1">55.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7799409940126736/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-otherpowders" class="tab-pane fade p-0">
+                    <div class="row g-4" id="otherpowders-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Figer Millet Powder PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Ragi powder</a>
+                                    <span class="text-primary me-1">80.00</span>
+                                    <span class="text-body text-decoration-line-through">85.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7195674793865682/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Atta PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Atta</a>
+                                    <span class="text-primary me-1">65.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25998773563102605/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Nutri Dosa.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Nutri dosa mix</a>
+                                    <span class="text-primary me-1">140.00</span>
+                                    <span class="text-body text-decoration-line-through">150.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7957711064282422/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Health Mix.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Health mix</a>
+                                    <span class="text-primary me-1">110.00</span>
+                                    <span class="text-body text-decoration-line-through">115.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7852180101564585/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-honeyjaggery" class="tab-pane fade p-0">
+                    <div class="row g-4" id="honey&jaggery-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Honey.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Honey</a>
+                                    <span class="text-primary me-1">100.00</span>
+                                    <span class="text-body text-decoration-line-through">110.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7408972905874483/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Palm Jaggery.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Palm jaggery</a>
+                                    <span class="text-primary me-1">160.00</span>
+                                    <span class="text-body text-decoration-line-through">180.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/25943186541991294/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-others" class="tab-pane fade p-0">
+                    <div class="row g-4" id="others-products">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Kaipakka Kondattam.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kaipakka kondattam</a>
+                                    <span class="text-primary me-1">30.00</span>
+                                    <span class="text-body text-decoration-line-through">35.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8020049854724692/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Dry Ginger PNG.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Dry ginger</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7970054043084618/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Puliyanji.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Puliyanji</a>
+                                    <span class="text-primary me-1">65.00</span>
+                                    <span class="text-body text-decoration-line-through">70.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7100138343423010/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href=""></a>
+                                    <span class="text-primary me-1"></span>
+                                    <span class="text-body text-decoration-line-through"></span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link" href="">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Product End -->
+
 
     <!-- Firm Visit Start -->
     <div class="container-fluid bg-primary bg-icon mt-5 py-6">
@@ -853,7 +1755,7 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
@@ -862,14 +1764,10 @@
                     <p>To empower the agricultural sector, we bring products of the highest quality to consumers.</p>
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://wa.me/+918289983083"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/profile.php?id=100076293798264&mibextid=ZbWKwL"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -881,7 +1779,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="index.html">Home</a>
                     <a class="btn btn-link" href="contact.html">Contact Us</a>
                     <a class="btn btn-link" href="feature.html">Our Features</a>
                     <a class="btn btn-link" href="product.html">Products</a>
@@ -893,11 +1791,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">KAFPCO</a>, All Right Reserved.
+                        &copy; <a href="https://kafpco.in/">KAFPCO</a>, All Right Reserved.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
+                    <!-- <div class="col-md-6 text-center text-md-end">
                         Designed By <a href="https://codeedextechnologies.com/">Codeedex Technologies</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -920,8 +1818,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const allProductsContainer = document.getElementById('all-products');
@@ -941,12 +1837,23 @@
             }
 
             // Clone products from all other tabs
+            cloneProductsFromTab('tab-rices');
             cloneProductsFromTab('tab-oils');
             cloneProductsFromTab('tab-millets');
-            cloneProductsFromTab('tab-powders');
+            cloneProductsFromTab('tab-spicepowders');
+            cloneProductsFromTab('tab-flakes');
+            cloneProductsFromTab('tab-pickles');
+            cloneProductsFromTab('tab-noodles');
+            cloneProductsFromTab('tab-vermicelli');
+            cloneProductsFromTab('tab-riceproducts');
+            cloneProductsFromTab('tab-otherpowders');
+            cloneProductsFromTab('tab-honeyjaggery');
+            cloneProductsFromTab('tab-others');
         });
 
     </script>
+
+
 </body>
 
 </html>
