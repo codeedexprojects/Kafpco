@@ -1857,6 +1857,15 @@
             cloneProductsFromTab('tab-otherpowders');
             cloneProductsFromTab('tab-honeyjaggery');
             cloneProductsFromTab('tab-others');
+
+            // Ensure only one dropdown item is active at a time
+            const dropdownItems = document.querySelectorAll('.dropdown-item');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    dropdownItems.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
         });
 
     </script>

@@ -2031,9 +2031,18 @@
 
             // Add event listener to the Show More button
             showMoreBtn.addEventListener('click', displayProducts);
-        });
 
+            // Ensure only one dropdown item is active at a time
+            const dropdownItems = document.querySelectorAll('.dropdown-item');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    dropdownItems.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
     </script>
+
 </body>
 
 </html>
