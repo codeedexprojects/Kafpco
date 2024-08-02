@@ -19,8 +19,14 @@
 .translate-button{
     bottom: 190px;
 }
+.goog-te-gadget img{
+    display:none !important;
+}
 body > .skiptranslate {
     display: none;
+}
+body {
+    top: 0px !important;
 }
 
 .my-6 {
