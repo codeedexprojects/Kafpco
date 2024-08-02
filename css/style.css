@@ -5,8 +5,7 @@
     --light: #F7F8FC;
     --dark: #111111;
 }
-
-.whatsapp-icon, .back-to-top {
+.whatsapp-icon, .back-to-top, .translate-button {
     position: fixed;
     display: none;
     right: 30px;
@@ -16,6 +15,12 @@
 
 .whatsapp-icon {
     bottom: 110px; /* Adjust this value as needed */
+}
+.translate-button{
+    bottom: 190px;
+}
+body > .skiptranslate {
+    display: none;
 }
 
 .my-6 {
