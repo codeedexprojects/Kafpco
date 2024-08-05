@@ -2030,7 +2030,7 @@
                 autoDisplay: false
             }, 'google_translate_element');
         }
-
+    
         function setCookie(name, value, days) {
             var expires = "";
             if (days) {
@@ -2040,7 +2040,7 @@
             }
             document.cookie = name + "=" + (value || "") + expires + "; path=/";
         }
-
+    
         function getCookie(name) {
             var nameEQ = name + "=";
             var ca = document.cookie.split(';');
@@ -2048,10 +2048,10 @@
                 var c = ca[i];
                 while (c.charAt(0) == ' ') c = c.substring(1, c.length);
                 if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-            }
-            return null;
+                }
+                return null;
         }
-
+    
         function changeLanguage(lang) {
             var iframe = document.querySelector('.goog-te-menu-frame');
             if (!iframe) return false;
@@ -2063,19 +2063,19 @@
             }
             return false;
         }
-
+    
         function toggleLanguage() {
             var currentLang = getCookie('googtrans');
-            var newLang = (currentLang === '/ml/en' || !currentLang) ? 'ml' : 'en';
+            var newLang = (currentLang === '/ml/en' || !currentLang) ? 'en' : 'ml';
             setCookie('googtrans', `/ml/${newLang}`, 365);
             location.reload();
         }
-
+    
         function setLanguage(lang) {
             setCookie('googtrans', `/ml/${lang}`, 365);
             location.reload();
         }
-
+    
         function applyInitialLanguage() {
             var currentLang = getCookie('googtrans');
             if (currentLang) {
@@ -2085,7 +2085,7 @@
                 }
             }
         }
-
+    
         document.addEventListener('DOMContentLoaded', function () {
             applyInitialLanguage();
         });

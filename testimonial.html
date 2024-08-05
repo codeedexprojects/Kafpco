@@ -281,7 +281,7 @@
 
         function toggleLanguage() {
             var currentLang = getCookie('googtrans');
-            var newLang = (currentLang === '/ml/en' || !currentLang) ? 'ml' : 'en';
+            var newLang = (currentLang === '/ml/en' || !currentLang) ? 'en' : 'ml';
             setCookie('googtrans', `/ml/${newLang}`, 365);
             location.reload();
         }
