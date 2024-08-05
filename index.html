@@ -273,7 +273,7 @@
                     <div class="dropdown nav nav-pills d-inline-flex justify-content-end mb-5">
                         <button class="btn btn-outline-primary dropdown-toggle" type="button" id="productDropdown"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Select Product Category
+                            <span id="selected-category">Select Product Category</span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="productDropdown">
                             <li><a class="dropdown-item active" data-bs-toggle="pill" href="#tab-all">All</a></li>
@@ -299,11 +299,11 @@
                 </div>
             </div>
             <div class="tab-content">
-                <div id="tab-all" class="tab-pane fade show active p-0 active">
+                <div id="tab-all" class="tab-pane fade show active p-0">
                     <div class="row g-4" id="all-products">
                         <!-- Dynamic content will be loaded here -->
                     </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 text-center wow fadeInUp mt-4" data-wow-delay="0.1s">
                         <button id="show-more-btn" class="btn btn-primary rounded-pill py-3 px-5">Show More</button>
                     </div>
                 </div>
@@ -381,7 +381,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item d-flex flex-column h-100">
                                 <div class="position-relative bg-light overflow-hidden flex-shrink-0">
-                                    <img class="img-fluid w-100" src="img/Karum kuruvi rice.jpg"
+                                    <img class="img-fluid w-100" src="img/Karum Kuruvi Rice.webp"
                                         alt="Karum kuruvi rice">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -428,7 +428,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item d-flex flex-column h-100">
                                 <div class="position-relative bg-light overflow-hidden flex-shrink-0">
-                                    <img class="img-fluid w-100" src="img/Poongar rice" alt="Poongar rice">
+                                    <img class="img-fluid w-100" src="img/Pongari Rice.webp" alt="Poongar rice">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New</div>
@@ -451,7 +451,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item d-flex flex-column h-100">
                                 <div class="position-relative bg-light overflow-hidden flex-shrink-0">
-                                    <img class="img-fluid w-100" src="img/Kattuvanam rice" alt="Kattuvanam rice">
+                                    <img class="img-fluid w-100" src="img/Kattuvanam Rice.webp" alt="Kattuvanam rice">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New</div>
@@ -474,7 +474,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item d-flex flex-column h-100">
                                 <div class="position-relative bg-light overflow-hidden flex-shrink-0">
-                                    <img class="img-fluid w-100" src="img/Black kavuni rice" alt="Black kavuni rice">
+                                    <img class="img-fluid w-100" src="img/Black Kavuni.webp" alt="Black kavuni rice">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New</div>
@@ -497,7 +497,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item d-flex flex-column h-100">
                                 <div class="position-relative bg-light overflow-hidden flex-shrink-0">
-                                    <img class="img-fluid w-100" src="img/Thooya malli rice" alt="Thooya malli rice">
+                                    <img class="img-fluid w-100" src="img/Thooya Malli Rice.webp"
+                                        alt="Thooya malli rice">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New</div>
@@ -840,7 +841,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Black kavuni flakes"
+                                    <img class="img-fluid w-100" src="img/Black KAvuni Flakes.webp"
                                         alt="Black kavuni flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -865,7 +866,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Kambam flakes" alt="Kambam flakes">
+                                    <img class="img-fluid w-100" src="img/Kambam Flakes.webp" alt="Kambam flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -889,7 +890,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Thina flakes" alt="Thina flakes">
+                                    <img class="img-fluid w-100" src="img/Thina Flakes.webp" alt="Thina flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -913,7 +914,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Ragi flakes" alt="Ragi flakes">
+                                    <img class="img-fluid w-100" src="img/Ragi Flakes.webp" alt="Ragi flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -937,7 +938,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Wheat flakes" alt="Wheat flakes">
+                                    <img class="img-fluid w-100" src="img/Wheat Flakes.webp" alt="Wheat flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -961,7 +962,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Kodo millet flakes" alt="Kodo millet flakes">
+                                    <img class="img-fluid w-100" src="img/Kodo Millet Flakes.webp"
+                                        alt="Kodo millet flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -985,7 +987,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Little millet flakes"
+                                    <img class="img-fluid w-100" src="img/Little Millet Flakes.webp"
                                         alt="Little millet flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1010,7 +1012,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Banyrd millet flakes"
+                                    <img class="img-fluid w-100" src="img/Banyrd Millet.webp"
                                         alt="Banyrd millet flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1059,7 +1061,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Hors gram flakes" alt="Hors gram flakes">
+                                    <img class="img-fluid w-100" src="img/Hors Gram Flakes.webp" alt="Hors gram flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -1083,7 +1085,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Green gram flakes" alt="Green gram flakes">
+                                    <img class="img-fluid w-100" src="img/Green Gram Flakes.webp"
+                                        alt="Green gram flakes">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                         New
@@ -1135,7 +1138,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/South Indian pickles"
+                                    <img class="img-fluid w-100" src="img/South Indian Pickles.webp"
                                         alt="South Indian pickles">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1212,7 +1215,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Pearl millet noodles"
+                                    <img class="img-fluid w-100" src="img/Pearl millet noodles.webp"
                                         alt="Pearl millet noodles">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1237,7 +1240,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Manik cholam noodles"
+                                    <img class="img-fluid w-100" src="img/Manik Cholam Noodles.webp"
                                         alt="Manik cholam noodles">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1286,7 +1289,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Foxtile Millet Noodles"
+                                    <img class="img-fluid w-100" src="img/Foxtile Millet Noodles.webp"
                                         alt="Foxtile Millet Noodles">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1411,7 +1414,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Kodo millet vermicelli"
+                                    <img class="img-fluid w-100" src="img/Kodo millet vermicelli.webp"
                                         alt="Kodo millet vermicelli">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1436,7 +1439,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/Foxtail millet Vermicelli"
+                                    <img class="img-fluid w-100" src="img/Foxtail millet Vermicelli.webp"
                                         alt="Foxtail millet Vermicelli">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1717,6 +1720,199 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Moisturizing butterfly pea gel (50g).webp"
+                                        alt="Moisturizing butterfly pea gel (50g)">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Moisturizing butterfly pea gel (50g)</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8709003739161045/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Moisturizing papaya gel (50g).webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Moisturizing papaya gel (50g)</a>
+                                    <span class="text-primary me-1">50.00</span>
+                                    <span class="text-body text-decoration-line-through">60.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7956114034447188/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Moisturizing aloevera gel (100g).webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Moisturizing aloevera gel (100g)</a>
+                                    <span class="text-primary me-1">100.00</span>
+                                    <span class="text-body text-decoration-line-through">110.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7253055824796898/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Sunscreen.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Sunscreen</a>
+                                    <span class="text-primary me-1">410.00</span>
+                                    <span class="text-body text-decoration-line-through">450.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8409867569023577/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Face Wash.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Face wash</a>
+                                    <span class="text-primary me-1">240.00</span>
+                                    <span class="text-body text-decoration-line-through">260.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/7054118511358263/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Shower Gel.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Shower Gel</a>
+                                    <span class="text-primary me-1">210.00</span>
+                                    <span class="text-body text-decoration-line-through">230.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8037869399612859/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Chutney Powder.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Chutney Powder</a>
+                                    <span class="text-primary me-1">80.00</span>
+                                    <span class="text-body text-decoration-line-through">90.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/26185592027721470/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Sambar Powder.webp" alt="">
+                                    <div
+                                        class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Sambar Powder</a>
+                                    <span class="text-primary me-1">90.00</span>
+                                    <span class="text-body text-decoration-line-through">100.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center border-end py-2">
+                                        <a class="text-body whatsapp-link"
+                                            href="https://wa.me/p/8590551324307342/918289983083">
+                                            <i class="fab fa-whatsapp text-primary me-2"></i>Buy Via WhatsApp
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
                                     <img class="img-fluid w-100" src="img/Kaipakka Kondattam.webp" alt="">
                                     <div
                                         class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -1959,7 +2155,7 @@
     <a href="https://wa.me/+918289983083" class="btn btn-lg btn-primary btn-lg-square rounded-circle whatsapp-icon">
         <i class="fab fa-whatsapp"></i>
     </a>
-    
+
     <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top">
         <i class="bi bi-arrow-up"></i>
     </a>
@@ -2065,6 +2261,7 @@
             let currentIndex = 0;
             const productsPerPage = 12;
             let allProducts = [];
+            const selectedCategory = document.getElementById('selected-category');
 
             // Function to clone products from other tabs
             function cloneProductsFromTab(tabId) {
@@ -2118,11 +2315,13 @@
                 item.addEventListener('click', function () {
                     dropdownItems.forEach(i => i.classList.remove('active'));
                     this.classList.add('active');
+
+                    // Update selected category text
+                    selectedCategory.textContent = this.textContent;
                 });
             });
         });
     </script>
-
 </body>
 
 </html>
