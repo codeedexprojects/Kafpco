@@ -79,6 +79,17 @@
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <!-- Language Selector -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('original')">Malayalam</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -1815,7 +1826,77 @@
         <i class="bi bi-arrow-up"></i>
     </a>
 
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ml',
+                includedLanguages: 'en,ml',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
 
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function changeLanguage(lang) {
+            var iframe = document.querySelector('.goog-te-menu-frame');
+            if (!iframe) return false;
+            var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+            var langButton = Array.from(innerDoc.querySelectorAll('.goog-te-menu2-item span.text')).find(span => span.textContent.trim() === lang);
+            if (langButton) {
+                langButton.click();
+                return true;
+            }
+            return false;
+        }
+
+        function toggleLanguage() {
+            var currentLang = getCookie('googtrans');
+            var newLang = (currentLang === '/ml/en' || !currentLang) ? 'ml' : 'en';
+            setCookie('googtrans', `/ml/${newLang}`, 365);
+            location.reload();
+        }
+
+        function setLanguage(lang) {
+            setCookie('googtrans', `/ml/${lang}`, 365);
+            location.reload();
+        }
+
+        function applyInitialLanguage() {
+            var currentLang = getCookie('googtrans');
+            if (currentLang) {
+                var lang = currentLang.split('/')[2];
+                if (!changeLanguage(lang)) {
+                    setTimeout(applyInitialLanguage, 500);
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            applyInitialLanguage();
+        });
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -82,6 +82,17 @@
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <!-- Language Selector -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('original')">Malayalam</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -1805,9 +1816,6 @@
     </div>
     <!-- Product End -->
 
-
-
-
     <!-- Firm Visit Start -->
     <div class="container-fluid bg-primary bg-icon mt-5 py-6">
         <div class="container">
@@ -1951,15 +1959,10 @@
     <a href="https://wa.me/+918289983083" class="btn btn-lg btn-primary btn-lg-square rounded-circle whatsapp-icon">
         <i class="fab fa-whatsapp"></i>
     </a>
-    <a href="#" id="translate-toggle" class="btn btn-lg btn-primary btn-lg-square rounded-circle translate-button">
-        <i class="fas fa-language"></i>
-    </a>
+    
     <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top">
         <i class="bi bi-arrow-up"></i>
     </a>
-
-    <div id="google_translate_element" style="display: none;"></div>
-
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -2010,10 +2013,10 @@
             location.reload();
         }
 
-        document.getElementById('translate-toggle').addEventListener('click', function (e) {
-            e.preventDefault();
-            toggleLanguage();
-        });
+        function setLanguage(lang) {
+            setCookie('googtrans', `/ml/${lang}`, 365);
+            location.reload();
+        }
 
         function applyInitialLanguage() {
             var currentLang = getCookie('googtrans');
@@ -2031,7 +2034,6 @@
     </script>
     <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
